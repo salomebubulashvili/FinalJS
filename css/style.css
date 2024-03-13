@@ -1,0 +1,92 @@
+
+
+
+body {
+    background-color: black;
+}
+/* header */
+header {
+    width: 100%;
+    height: 1000px;
+    position: relative;
+}
+.bg-image {
+    background-image: url(../images/128a8056-2474-484c-b052-489fb44a543c.jpeg); 
+    width: 100%;
+    height: 62.5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.header-fixed{
+    background-color: #00000077;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+}
+.header-wraper {
+    max-width: 90rem;
+    width: 100%;
+    height: 6.875rem;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    
+}
+
+.logo-img {
+    width: 8.125rem;
+    height: 5rem;
+}
+.navigation {
+    max-width: 50rem;
+    width: 100%;
+    
+}
+ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 1.125rem;
+    font-family: ALK Sanet;
+}
+.li-a {
+    color: lightgrey;
+}
+
+.burger-bar {
+    color: #FFFFFF;
+    display: none;
+}
+.web-pages {
+    width: 3.125rem;
+    height: 3.125rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.web {
+    color: lightgray;
+    font-size: 1.125rem;
+}

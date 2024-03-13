@@ -1,0 +1,235 @@
+@media (max-width:1024px) {
+   
+
+    .bar {
+        width: 60%;
+        height: 4px;
+        background-color: lightgray;
+        transition: all 1s ease-in-out;
+    }
+
+    .bar1.lines-to-X {
+        transform: rotate(45deg) translate(5px, 5px);
+        transition: all 1s ease-in-out;
+    }
+
+    .bar3.lines-to-X {
+        transform: rotate(-45deg) translate(6px, -6px);
+        transition: all 1s ease-in-out;
+    }
+
+    .bar2 {
+        width: 40%;
+        height: 4px;
+        background-color: lightgray;
+        transition: all 1s ease-in-out;
+    }
+    .burger-line-hide {
+        opacity: 0;
+    }
+
+    .burger-bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 60px;
+        row-gap: 4px;
+        cursor: pointer;
+    }
+
+    .nav {
+        display: none;
+
+    }
+    .nav.activeNav {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 250px;
+        height: 250px;
+        background-color: #00000077;
+        animation: right-to-left 3s ease-in-out;
+
+    }
+    .nav.activeNav ul {
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+    }
+
+    .web-pages {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    
+    .royal-text p {
+        font-size: 1.25rem;
+    }
+    .royal-wraper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .footer-container {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+    .section-wraper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        row-gap: 2.5rem;
+    }
+    .heritage-wraper{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .heritage-right {
+        max-width: 30rem;
+        height: 28rem;
+    }
+    .heritage-right img {
+        width: 100%;
+        height: 28rem;
+    }
+    .royal-text {
+        height: 20rem;
+    }
+    .right-img {
+        max-width: 30rem;
+        width: 100%;
+        height: 32rem;
+    }
+}
+
+@media (max-width:768px) {
+    .web-pages {
+        display: none;
+    }
+    .right {
+        display: none;
+    }
+    
+    .wine-tittle h1 {
+        font-size: 2rem;
+    }
+    .heritage-right {
+        display: none;
+    }
+    .heritage-tittle h2 {
+        font-size: 2rem;
+    }
+    .logos img {
+        width: 6.25rem;
+        height: 6.25rem;
+    }
+    .footer-container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        row-gap: 1rem;
+    }
+    .mail h5 {
+        font-size: 1.125rem;
+    }
+    .royal-img {
+        max-width: 45rem;
+        width: 100%;
+        height: 30rem;
+    }
+    .royal-img img {
+        max-width: 45rem;
+        width: 100%;
+        height: 30rem;
+    }
+    
+} 
+@media (max-width:480px) {
+    .royal-tittle {
+        padding-top: 2.5rem;
+    }
+    .email-box {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .email {
+        max-width: 20rem;
+        width: 100%;
+    }
+    .submit {
+        max-width: 20rem;
+        width: 100%;
+    }
+    .contact-forms {
+        max-width: 20rem;
+        width: 100%;
+    }
+    .forms {
+        width: 100%;
+    }
+    .message {
+        
+        width: 100%;
+    }
+    .photos img {
+        max-width: 15rem;
+    }
+    .royal-img {
+        max-width: 24rem;
+        width: 100%;
+        height: 20rem;
+    }
+    .royal-img img {
+        max-width: 24rem;
+        width: 100%;
+        height: 18.75rem;
+        padding-top: 2.5rem;
+    }
+   
+}
+@media ( max-width: 375px) {
+   
+    .web-pages {
+        display: none;
+    }
+    .right {
+        display: none;
+    }
+    .wine-tittle {
+        padding-top: 5rem;
+    }
+    
+    
+   .mail h5 {
+    font-size: 1rem;
+   }
+   .form {
+    max-width: 15rem;
+    width: 100%;
+   }
+   .email {
+    max-width: 15rem;
+    width: 100%;
+    
+   }
+   .submit {
+    max-width: 15rem;
+    width: 100%;
+   }
+   .royal-text {
+    height: 23rem;
+   }
+}
