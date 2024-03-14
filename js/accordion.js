@@ -10,3 +10,4 @@ for (let item of divAccordion) {
     });
     
   }
+  
