@@ -213,9 +213,9 @@ ul {
   
   
   .splide__slide img {
-    max-width: 50rem;
+    max-width: 90rem;
     width: 100%;
-    height: 37.5rem;
+    height: 43rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
     object-fit: cover;
   }
@@ -350,8 +350,383 @@ img {
     font-size: 0.875rem;
 }
 
+/* heritage */
+.heritage-and-awards {
+    max-width: 90rem;
+    width: 100%;
+    min-height: 190rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.heritage {
+    max-width: 90rem;
+    width: 100%;
+    min-height: 190rem;
+    margin: 0 auto;
+    padding-top: 2.5rem;
+}
+.chelti-heritage {
+    max-width: 90rem;
+    width: 100%;
+    min-height: 94rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.heritage-wraper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    min-height: 32rem;
+}
+.heritage-left {
+    max-width: 30rem;
+    width: 100%;
+    height: 32rem;
+    color: #FFFFFF;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 3rem;
 
+}
+.heritage-tittle {
+    padding-bottom: 5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    row-gap: 1rem;
+}
+.heritage-tittle h2 {
+    font-size: 4rem;
+    color: #FFFFFF;
+    font-family: 'ALK Sanet';
+    text-shadow: 2px 2px 4px lightsalmon;
+}
+.heritage-tittle p {
+    font-family: 'BPG Irubaqidze';
+    font-size: 1.25rem;
+    color: #FFFFFF;
+}
+.text h2 {
+    
+    font-family: 'ALK Sanet';
+    font-size: 1.75rem;
+    text-shadow: 2px 2px 4px lightsalmon;
+    margin-bottom: 1rem;
+}
+.text p {
+    font-family: 'BPG Irubaqidze';
+    font-size: 1.25rem;
+    
+}
+.heritage-right {
+    max-width: 50rem;
+    width: 100%;
+    height: 32rem;
+    
+}
+.heritage-right img {
+    max-width: 50rem;
+    width: 100%;
+    height: 32rem;
+    /* border-radius: 3.75rem 1.25rem; */
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    -webkit-box-shadow: 5px 10px 18px lightgrey;
+            box-shadow: 5px 10px 18px lightgrey;
+}
+.royal {
+    max-width: 90rem;
+    width: 100%;
+    min-height: 50rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    row-gap: 7.5rem;
+    padding-top: 5rem;
+}
+.royal-tittle {
+    font-family: 'ALK Sanet';
+    font-size: 3.75rem;
+    text-shadow: 2px 2px 4px lightsalmon;
+    color: #E8BC62;
+    padding-top: 5rem;
+    height: 8.75rem;
+}
+.royal-wraper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -moz-column-gap: 5rem;
+         -webkit-column-gap: 5rem;
+            column-gap: 5rem;
+    
+}
+.royal-img {
+    
+    max-width: 50rem;
+    width: 100%;
+    height: 35rem;
+    margin: 0 auto;
+    
+}
+.royal img {
+    max-width: 50rem;
+    height: 35rem;
+    width: 100%;
+    border-radius: 1rem;
+}
+.royal-text {
+    color:#E8BC62;
+    max-width: 35rem;
+    width: 100%;
+    height: 35rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 2rem;
+    
+}
+.royal-text p {
+    font-family: 'BPG Irubaqidze';
+    font-size: 2rem;
+    
+}
+.video {
+    max-width: 56.25rem;
+    width: 100%;
+    height: 50rem;
+    padding-top: 10rem;
+    margin: 0 auto;
+    
+}
+.video-youtube {
+    width: 100%;
+}
+/* awards */
+.awards {
+    max-width: 90rem;
+    width: 100%;
+    min-height: 57rem;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 2.5rem;
+}
+.awards-description {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color: #FFFFFF;
+    row-gap: 1rem;
+    max-width: 46rem;
+}
+.awards-description h4 {
+    font-family: 'ALK Sanet';
+    font-size: 2rem;
+    color: #E8BC62;
+}
+.awards-description p {
+    font-family: 'ALK Sanet';
+    font-size: 1.125rem;
+}
+.awards-wraper {
+    max-width: 90rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-top: 5rem;
+    gap: 2.5rem;
+}
+.logos {
+    max-width: 12.5rem;
+    
+}
+.logos img {
+    max-width: 12.5rem;
+    width: 100%;
+    height: 12.5rem;
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+}
 
+/* footer */
+footer {
+    
+    width: 100%;
+    min-height: 12rem;
+    border-top: 1px solid lightgrey;
+    padding-top: 4rem;
+}
+.footer-container {
+    max-width: 90rem;
+    width: 100%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #FFFFFF;
+}
+.footer-web,
+.address,
+.phone,
+.mail {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 1rem;
+} 
+.rights p {
+    font-family: 'BPG Irubaqidze';
+    font-size: 1rem;
+}
+.footer-web {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.social{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 5rem;
+    width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    
+}
+.mail {
+    max-width: 22rem;
+    width: 100%;
+    min-height: 4.75rem;
+}
+.address a,
+.phone a {
+    color: #FFFFFF;
+    font-family: 'BPG Irubaqidze';
+    font-size: 1rem;
+}
+.submit {
+    border: none;
+    background-color: black;
+    color: #E8BC62;
+}
+.address h5,
+.phone h5,
+.mail h5 {
+    font-size: 1.125rem;
+    font-family: 'ALK Sanet';
+}
+.form {
+    width: 20rem;
+}
+
+.email-box {
+    max-width: 20rem;
+    width: 100%;
+    height: 2.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.email {
+    max-width: 10rem;
+    width: 100%;
+    height: 2.5rem;
+    font-size: 0.875rem;
+    background-color: black;
+    border: none;
+    
+}
+.submit {
+    max-width: 8rem;
+    width: 100%;
+    border: 1px solid #E8BC62;
+    height: 2.5rem;
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+}
+.footer-logo img{
+    width: 8.125rem;
+    height: 5rem;
+}
 
 
 

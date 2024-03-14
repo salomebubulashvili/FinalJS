@@ -19,7 +19,7 @@ burgerBar.addEventListener("click", function () {
 
 let splide = new Splide( '.splide', {
     type    : 'loop',
-    perPage : 2,
+    perPage : 1,
     autoplay: true,
   } );
   
