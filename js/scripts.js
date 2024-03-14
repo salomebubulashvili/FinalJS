@@ -3,7 +3,7 @@
 const navBar = document.getElementById("nav");
 const burgerBar = document.getElementById("burgerBar");
 
-burgerBar.addEventListener("click", function() {
+burgerBar.addEventListener("click", function () {
     navBar.classList.toggle("activeNav");
 
     const burgerLine2 = document.querySelector(".bar2"); 
@@ -26,3 +26,4 @@ let splide = new Splide( '.splide', {
   splide.mount();
 
   
+

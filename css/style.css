@@ -227,7 +227,10 @@ ul {
 
 
 
-
+  .product-header {
+    width: 100%;
+    height: 6.875rem;;
+  }
   .products {
     max-width: 90rem;
     width: 100%;
@@ -247,16 +250,113 @@ ul {
 }
 
 .wine-tittle {
-    max-width: 50rem;
+    margin: 0 auto;
+    max-width: 56.25rem;
     width: 100%;
     min-height: 7.5rem;
+    
+    
 }
 .wine-tittle h1 {
     color: #FFFFFF;
-    font-size: 3.75rem;
+    font-size: 5rem;
     font-family: 'ALK Sanet';
     text-shadow: 2px 2px 4px #FFFFFF;
 }
+
+/* accordion */
+.accordion-body {
+    max-width: 90rem;
+    width: 100%;
+    min-height: 100rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.accordion-title {
+    position: relative;
+}
+.accordion-title::before {
+    /* content:  '+'; */
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+.container {
+    cursor: pointer;
+    margin-bottom: 25px;
+    max-width:30rem;
+    width: 100%;
+    padding: 30px;
+}
+.accordion-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.625rem;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: all 2s;
+}
+.container.active .accordion-text {
+    height: 300px;
+}
+
+
+img {
+    max-width: 5rem;
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+.accordion-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title h2,
+.title h3,
+.title h4 {
+    color: white;
+}
+.container.active .accordion-text p {
+    color: white;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+.title h2 {
+    font-size: 1.375rem;
+}
+.title h2,
+.title h3,
+.title h4,
+.accordion-text p {
+    text-shadow: 2px 2px 4px #FFFFFF;
+}
+
+.accordion-text p:nth-child(1) {
+    font-size: 1.25rem;
+}
+.accordion-text p:nth-child(2) {
+    font-size: 1.125rem;
+}
+.accordion-text p:nth-child(3) {
+    font-size: 0.875rem;
+}
+
+
+
+
+
+
+
+
 
   /* hover */
 i:hover {
