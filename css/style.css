@@ -224,3 +224,82 @@ ul {
   .splide__arrow {
     display: none; 
   }
+
+
+
+
+  .products {
+    max-width: 90rem;
+    width: 100%;
+    min-height: 193rem;
+    padding-top: 6.5rem;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.wine-tittle {
+    max-width: 50rem;
+    width: 100%;
+    min-height: 7.5rem;
+}
+.wine-tittle h1 {
+    color: #FFFFFF;
+    font-size: 3.75rem;
+    font-family: 'ALK Sanet';
+    text-shadow: 2px 2px 4px #FFFFFF;
+}
+
+  /* hover */
+i:hover {
+    color: #E8BC62;
+    -webkit-transform: scale(2,2);
+        -ms-transform: scale(2,2);
+            transform: scale(2,2);
+    
+}
+.photos img:hover {
+    -webkit-transform: scale(1.2,1.2);
+        -ms-transform: scale(1.2,1.2);
+            transform: scale(1.2,1.2);
+    
+}
+.logos img:hover{
+    -webkit-transform: scale(1.2,1.2);
+        -ms-transform: scale(1.2,1.2);
+            transform: scale(1.2,1.2);
+    
+}
+
+.submit:hover {
+    background-color: #E8BC62;
+    color: #FFFFFF;
+    
+}
+.btn:hover {
+    background-color: #E8BC62;
+    color: #FFFFFF;
+   
+}
+.left-btn:hover {
+    background-color: #E8BC62;
+    color: #FFFFFF;
+    
+}
+.li-a:active {
+    color: #E8BC62;
+}
+
+.email:hover,
+.input:hover,
+.message:hover {
+    background-color: lightgoldenrodyellow;
+}
