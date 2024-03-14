@@ -174,3 +174,53 @@ ul {
     height: 43.75rem;
     border-radius: 1.25rem;
 }
+
+/* gallery slider */
+
+.gallery {
+    max-width: 90rem;
+    width: 100%;
+    min-height: 62.5rem;
+    padding-top: 5rem;
+    margin: 0 auto;
+}
+.gallery-tittle {
+    text-align: center;
+    color: lightgray;
+    font-size: 2.5rem;
+    font-family: ALK Sanet;
+    text-shadow: 2px 2px 4px #FFFFFF;
+}
+.gallery-text {
+    color: lightgray;
+    font-family: ALK Sanet;
+    font-size: 1rem;
+    max-width: 60rem;
+    width: 100%;
+    text-align:start;
+    margin: 0 auto;
+    padding-top: 2.5rem;
+}
+.gallery-text p {
+    margin-bottom: 1rem;
+}
+
+#image-carousel {
+    max-width: 90rem;
+    width: 100%; 
+    margin: 0 auto; 
+  }
+  
+  
+  .splide__slide img {
+    max-width: 50rem;
+    width: 100%;
+    height: 37.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    object-fit: cover;
+  }
+  
+  
+  .splide__arrow {
+    display: none; 
+  }

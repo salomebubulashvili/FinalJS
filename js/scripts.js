@@ -14,3 +14,15 @@ burgerBar.addEventListener("click", function() {
         element.classList.toggle("lines-to-X");
     });
 });
+
+// slider
+
+let splide = new Splide( '.splide', {
+    type    : 'loop',
+    perPage : 2,
+    autoplay: true,
+  } );
+  
+  splide.mount();
+
+ 
