@@ -701,11 +701,128 @@ footer {
   height: 5rem;
 }
 
+.fa-eye {
+  color: white;
+  transition: none;
+}
+.fa-regular.fa-eye-slash {
+  color: white;
+  transition: none;
+}
+.section-wraper {
+  max-width: 78rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 6.25rem;
+}
+.grapes {
+  max-width: 30rem;
+  width: 100%;
+  height: 20rem;
+}
+.grapes img {
+  max-width: 30rem;
+  width: 100%;
+  height: 20rem;
+}
+.contact-forms {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  row-gap: 1.25rem;
+}
+.contact-forms h3 {
+  font-family: "BPG Irubaqidze";
+  font-size: 2.5rem;
+  color: #e8bc62;
+}
+.form-element {
+  max-width: 23.25rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  row-gap: 1.25rem;
+}
+.forms {
+  max-width: 23rem;
+  width: 100%;
+}
+.input {
+  width: 100%;
+  height: 2.5rem;
+  background-color: black;
+  border: none;
+  outline: none;
+  border: 1px solid lightgray;
+  font-family: "BPG Irubaqidze";
+  font-size: 1.5rem;
+}
 
-
-
-
-
+.btn {
+  border: none;
+  background-color: black;
+  color: #e8bc62;
+  border: 1px solid #e8bc62;
+  width: 11.5rem;
+  height: 2.5rem;
+  font-family: "BPG Irubaqidze";
+  font-size: 1.125rem;
+  -webkit-transition: all 1s linear;
+  -o-transition: all 1s linear;
+  transition: all 1s linear;
+}
+.contact-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  row-gap: 3rem;
+  max-width: 13.75rem;
+  width: 100%;
+}
+.city-address h4,
+.factory-address h4 {
+  color: #e8bc62;
+  font-size: 1.25rem;
+  font-family: "ALK Sanet";
+}
+.city-address a,
+.factory-address a {
+  color: #ffffff;
+  font-family: "BPG Irubaqidze";
+  font-size: 1rem;
+}
+.contact-info a {
+  color: #e8bc62;
+  font-family: "BPG Irubaqidze";
+}
+label {
+  color: white;
+}
+.error-text {
+  color: red;
+}
 /* hover */
 i:hover {
   color: #e8bc62;
@@ -744,4 +861,14 @@ i:hover {
 .input:hover,
 .message:hover {
   background-color: lightgoldenrodyellow;
+}
+
+.fa-eye:hover {
+  transform: none;
+  color: white;
+}
+.fa-regular.fa-eye-slash:hover {
+  color: white; 
+  cursor: auto;
+  transform: none;
 }

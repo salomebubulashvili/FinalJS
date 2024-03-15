@@ -36,70 +36,140 @@
   <body>
     <!-- header -->
     <header class="product-header">
-        <!-- <div class="bg-image"></div> -->
-        <div class="header-fixed">
-          <div class="header-wraper">
-            <div class="logo">
-              <a href="index.html">
-                <img
-                  class="logo-img"
-                  src="images/Winery-chelti-logo.png"
-                  alt="logo"
-                />
+      <!-- <div class="bg-image"></div> -->
+      <div class="header-fixed">
+        <div class="header-wraper">
+          <div class="logo">
+            <a href="index.html">
+              <img
+                class="logo-img"
+                src="images/Winery-chelti-logo.png"
+                alt="logo"
+              />
+            </a>
+          </div>
+          <div class="navigation" id="navigation">
+            <nav class="nav" id="nav">
+              <ul class="ul-list" id="ulList">
+                <li>
+                  <a class="li-a" href="index.html">მთავარი</a>
+                </li>
+                <li>
+                  <a class="li-a" href="#AboutUs">ჩვენ შესახებ</a>
+                </li>
+                <li>
+                  <a class="li-a" href="#Gallery">გალერეა</a>
+                </li>
+                <li>
+                  <a class="li-a" href="products.html">პროდუქცია</a>
+                </li>
+                <li>
+                  <a class="li-a" href="#Heritage">მემკვიდრეობა</a>
+                </li>
+                <li>
+                  <a class="li-a" href="contact.html">კონტაქტი</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="burger-bar" id="burgerBar">
+            <div class="bar bar1"></div>
+            <div class="bar bar2"></div>
+            <div class="bar bar3"></div>
+          </div>
+          <div class="web-pages">
+            <div class="facebook">
+              <a href="https://www.facebook.com/">
+                <i class="fa-brands fa-facebook-f web"></i>
               </a>
             </div>
-            <div class="navigation" id="navigation">
-              <nav class="nav" id="nav">
-                <ul class="ul-list" id="ulList">
-                  <li>
-                    <a class="li-a" href="index.html">მთავარი</a>
-                  </li>
-                  <li>
-                    <a class="li-a" href="#AboutUs">ჩვენ შესახებ</a>
-                  </li>
-                  <li>
-                    <a class="li-a" href="#Gallery">გალერეა</a>
-                  </li>
-                  <li>
-                    <a class="li-a" href="products.html">პროდუქცია</a>
-                  </li>
-                  <li>
-                    <a class="li-a" href="#Heritage">მემკვიდრეობა</a>
-                  </li>
-                  <li>
-                    <a class="li-a" href="contact.html">კონტაქტი</a>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-            <div class="burger-bar" id="burgerBar">
-              <div class="bar bar1"></div>
-              <div class="bar bar2"></div>
-              <div class="bar bar3"></div>
-            </div>
-            <div class="web-pages">
-              <div class="facebook">
-                <a href="https://www.facebook.com/">
-                  <i class="fa-brands fa-facebook-f web"></i>
-                </a>
-              </div>
-              <div class="instagram">
-                <a href="https://www.instagram.com/">
-                  <i class="fa-brands fa-instagram web"></i>
-                </a>
-              </div>
+            <div class="instagram">
+              <a href="https://www.instagram.com/">
+                <i class="fa-brands fa-instagram web"></i>
+              </a>
             </div>
           </div>
         </div>
-      </header>
+      </div>
+    </header>
 
-      <section>
-
-        
-      </section>
-
-
-
+    <section>
+      <div class="section-wraper">
+        <div class="grapes">
+          <img src="images/chelti-grapes.jpg" alt="image" />
+        </div>
+        <div class="contact-forms">
+          <h3>დაგვიკავშირდით</h3>
+          <div>
+            <form action="" id="resgitration" method="post">
+              <div>
+                <input
+                  type="text"
+                  name="username"
+                  placeholder="მომხმარებლის სახელი"
+                  id="usernameField"
+                />
+                <p class="error-text" id="error-username"></p>
+              </div>
+              <div>
+                <input
+                  type="password"
+                  name="passw"
+                  placeholder="ჩაწერეთ პაროლი"
+                  id="passwordField"
+                />
+                <i class="fa-regular fa-eye" id="showIcon"></i>
+                <p class="error-text" id="error-passw"></p>
+              </div>
+              <div>
+                <input
+                  type="password"
+                  name="passw2"
+                  placeholder="გაიმეორეთ პაროლი"
+                  id="passwordField2"
+                />
+                <p class="error-text" id="error-passw2"></p>
+              </div>
+              <div>
+                <input type="email" id="emailField" placeholder="შეიყვანეთ თქვენი იმეილი" />
+                <p id="emailError"></p>
+              </div>
+              <div>
+                <input type="radio" name="gender" class="radio-class" />
+                <label for="">კაცი</label>
+                <input type="radio" name="gender" class="radio-class" />
+                <label for="">ქალი</label>
+                <p class="error-text" id="error-gender"></p>
+              </div>
+              <div>
+                <input type="checkbox" id="agree" name="check" />
+                <label for="agree">ვეთანხმები პირობებს</label>
+                <p class="error-text" id="error-check"></p>
+              </div>
+              <button type="submit">რეგისტრაცია</button>
+            </form>
+          </div>
+        </div>
+        <div class="contact-us">
+            <div class="city-address">
+                <h4>მისამართი</h4>
+                <a href="https://www.google.com/maps/search/%E1%83%95%E1%83%90%E1%83%9F%E1%83%90-%E1%83%A4%E1%83%A8%E1%83%90%E1%83%95%E1%83%94%E1%83%9A%E1%83%90%E1%83%A1+%E1%83%92%E1%83%90%E1%83%9B%E1%83%96%E1%83%98%E1%83%A0%E1%83%98+%2362%2F18,+%E1%83%97%E1%83%91%E1%83%98%E1%83%9A%E1%83%98%E1%83%A1%E1%83%98,+%E1%83%A1%E1%83%90%E1%83%A5%E1%83%90%E1%83%A0%E1%83%97%E1%83%95%E1%83%94%E1%83%9A%E1%83%9D/@41.7235267,44.7213864,17z/data=!3m1!4b1?entry=ttu">ვაჟა-ფშაველას გამზირი #62/18, თბილისი, საქართველო</a>
+            </div>
+            <div class="factory-address">
+                <h4>ქარხნის მისამართი</h4>
+                <a href="https://www.google.com/maps/place/Shilda/@41.9977963,45.671871,13z/data=!3m1!4b1!4m6!3m5!1s0x4045dab3ac46a9f9:0x7d8b95312f666c4c!8m2!3d41.99787!4d45.7178284!16s%2Fg%2F112yg8q5h?entry=ttu">სოფ. შილდა, ყვარელი, საქართველო</a>
+            </div>
+            <div class="contact-info">
+                <div class="call">
+                    <a href="tel:123-456-7890">(+995) 593 391000</a>
+                </div>
+                <div class="email-addres">
+                    <a href="mailto:name@email.com">info@chelti.com</a>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
 
     <script type="module" src="js/contact.js"></script>
   </body>
