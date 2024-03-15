@@ -1,6 +1,8 @@
 "use strict"
 
+import {burger} from "./scripts.js";
 
+burger();
 
 const divAccordion = document.querySelectorAll(".container");
 
@@ -10,7 +12,15 @@ const divAccordion = document.querySelectorAll(".container");
       this.classList.toggle("active");
     });
     
-  }
+  };
+
+
+
+  
+
 
   
   
+  
+    
+
