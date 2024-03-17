@@ -113,3 +113,27 @@ function validationEmail() {
 }
 
 email.addEventListener("keyup", validationEmail);
+
+
+const form = document.getElementById("resgitration");
+
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
+
+  let checkbox = document.getElementById("save");
+  if (checkbox.checked) {
+    let usernameValue = document.getElementById("usernameField").value;
+    Cookies.set("saved_username", usernameValue);
+  } else {
+    Cookies.remove("saved_username");
+  }
+  e.target.submit();
+});
+
+let savedUsername = Cookies.get("saved_username");
+
+if (savedUsername) {
+  document.getElementById("usernameField").value = savedUsername;
+  document.getElementById("save").checked = true;
+}
+
