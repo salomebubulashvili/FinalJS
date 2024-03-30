@@ -1,0 +1,52 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "username": "Anna",
+            "lastname": "Sikharulidze",
+            "email": "annasikh@gmail.com"
+        },
+        {
+            "id": 2,
+            "username": "Tornike",
+            "lastname": "Beridze",
+            "email": "tornikebb@gmail.com"
+        },
+        {
+            "id": 3,
+            "username": "Nikoloz",
+            "lastname": "Pheradze",
+            "email": "nikolozi@gmail.com"
+        },
+        {
+            "id": 4,
+            "username": "Nutsa",
+            "lastname": "Rukhadze",
+            "email": "nutsaR@gmail.com"
+        }
+
+
+    ],
+
+    "posts": [
+        {
+            "id": 1,
+            "text": "Chelti Winery wines are most delicious drinks I have ever tried!"
+        },
+        {
+            "id": 2,
+            "text": "Chelti Winery... Oh, I love this company!"
+        },
+        {
+            "id": 3,
+            "text": "I saw in Washington Post an article about Chelti Winery. Then I tasted their wines and I can say: It made me comfortable!"
+        },
+        {
+            "id": 4,
+            "text": "All I can say about this company and their wines is that they're just perfect! "
+        }
+
+    ]
+
+    
+}

@@ -31,6 +31,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
     <link rel="stylesheet" href="/path/to/alk-sanet.min.css" />
+    <link rel="stylesheet" href="/path/to/bpg-irubaqidze.min.css">
   </head>
 
   <body>
@@ -101,7 +102,7 @@
         <div class="contact-forms">
           <h3>დაგვიკავშირდით</h3>
           <div>
-            <form action="#" id="resgitration" method="post">
+            <form action="#" class="form-element" id="resgitration" method="post">
               <div>
                 <div>
                   <input
@@ -109,6 +110,7 @@
                     name="username"
                     placeholder="მომხმარებლის სახელი"
                     id="usernameField"
+                    class="username"
                   />
                   <p class="error-text" id="error-username"></p>
                 </div>
@@ -118,6 +120,7 @@
                     name="passw"
                     placeholder="ჩაწერეთ პაროლი"
                     id="passwordField"
+                    class="password"
                   />
                   <i class="fa-regular fa-eye" id="showIcon"></i>
                   <p class="error-text" id="error-passw"></p>
@@ -128,17 +131,19 @@
                     name="passw2"
                     placeholder="გაიმეორეთ პაროლი"
                     id="passwordField2"
+                    class="password"
                   />
                   <p class="error-text" id="error-passw2"></p>
                 </div>
                 <input type="checkbox" id="save" />
               </div>
-              
+
               <div>
                 <input
                   type="email"
                   id="emailField"
                   placeholder="შეიყვანეთ თქვენი იმეილი"
+                  class="email-field"
                 />
                 <p id="emailError"></p>
               </div>
@@ -148,6 +153,8 @@
                   name="message"
                   id="message"
                   placeholder="შეტყობინება*"
+                  
+        
                 ></textarea>
               </div>
               <div>
@@ -162,8 +169,8 @@
                 <label for="agree">ვეთანხმები პირობებს</label>
                 <p class="error-text" id="error-check"></p>
               </div>
-              
-              <button type="submit">გაგზავნა</button>
+
+              <button class="form-btn" type="submit">გაგზავნა</button>
             </form>
           </div>
         </div>
@@ -193,8 +200,98 @@
         </div>
       </div>
     </section>
+    <section class="user-sect">
+      <div class="user-container">
+        
+        <div id="comment-overlay" class="overlay">
+          <div class="overlay-content">
+            <span id="close-btn" class="close">&times;</span>
+            <textarea
+              id="comment-input"
+              placeholder="Write your comment here..."
+            ></textarea>
+            <button id="submit-comment-btn">Submit</button>
+          </div>
+        </div>
+        <div class="users" id="users-container"></div>
+        <button class="add-comment" id="add-comment-btn">Add Comment</button>
+      </div>
+      
 
+      
+
+      <div class="our-users">
+        <h3>ჩვენი კმაყოფილი მომხმარებლები</h3>
+        <input type="text" id="filter" class="filter" placeholder="Search users...">
+        <ul id="result"></ul>
+    </div>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-logo">
+          <img src="images/winery-Chelti-logo-white.png" alt="logo" />
+        </div>
+        <div class="footer-web">
+          <div class="social">
+            <div class="social-fb">
+              <a href="https://www.facebook.com/winerychelti" target="_blank">
+                <i class="fa-brands fa-facebook-f web"></i>
+              </a>
+            </div>
+            <div class="social-inst">
+              <a
+                href="https://www.instagram.com/cheltiwinery/"
+                target="_blank"
+              >
+                <i class="fa-brands fa-instagram web"></i>
+              </a>
+            </div>
+          </div>
+          <div class="rights">
+            <p>ყველა უფლება დაცულია</p>
+          </div>
+        </div>
+        <div class="address">
+          <h5>მისამართი</h5>
+          <a
+            href="https://www.google.com/maps/place/Shilda/@41.9977963,45.671871,13z/data=!3m1!4b1!4m6!3m5!1s0x4045dab3ac46a9f9:0x7d8b95312f666c4c!8m2!3d41.99787!4d45.7178284!16s%2Fg%2F112yg8q5h?entry=ttu"
+          >
+            სოფ.შილდა, ყვარელი</a
+          >
+        </div>
+        <div class="phone">
+          <h5>ნომერი</h5>
+          <a href="tel:123-456-7890">(+995) 593 88 83 88</a>
+        </div>
+        <div class="mail">
+          <h5>მიიღე ჩვენი სიახლეები ელ-ფოსტაზე</h5>
+          <div class="email-box">
+            <form class="form" action="">
+              <label for="email"></label>
+              <input
+                class="email"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="ელ-ფოსტა*"
+              />
+              <button class="submit" type="submit">გამოიწერე</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+    
+
+    
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
     <script type="module" src="js/contact.js"></script>
+    <script src="js/scrollToTop.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/3.0.1/js.cookie.min.js"></script>
   </body>
 </html>

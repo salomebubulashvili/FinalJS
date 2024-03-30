@@ -5,6 +5,9 @@ import { burger } from "./burger.js";
 document.addEventListener("DOMContentLoaded", function () {
   burger();
 });
+
+
+
 // slider
 
 let splide = new Splide(".splide", {
@@ -14,7 +17,6 @@ let splide = new Splide(".splide", {
 });
 
 splide.mount();
-
 
 
 

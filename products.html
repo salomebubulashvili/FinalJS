@@ -29,7 +29,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
-    <link rel="stylesheet" href="/path/to/alk-sanet.min.css" />
+  
+    <link rel="stylesheet" href="/node_modules/alk-sanet/css/alk-sanet.min.css">
+    <link rel="stylesheet" href="/node_modules/bpg-irubaqidze/css/bpg-irubaqidze.min.css">
   </head>
 
   <body>
@@ -412,6 +414,68 @@
         </div>
       </div>
     </section>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-logo">
+          <img src="images/winery-Chelti-logo-white.png" alt="logo" />
+        </div>
+        <div class="footer-web">
+          <div class="social">
+            <div class="social-fb">
+              <a href="https://www.facebook.com/winerychelti" target="_blank">
+                <i class="fa-brands fa-facebook-f web"></i>
+              </a>
+            </div>
+            <div class="social-inst">
+              <a
+                href="https://www.instagram.com/cheltiwinery/"
+                target="_blank"
+              >
+                <i class="fa-brands fa-instagram web"></i>
+              </a>
+            </div>
+          </div>
+          <div class="rights">
+            <p>ყველა უფლება დაცულია</p>
+          </div>
+        </div>
+        <div class="address">
+          <h5>მისამართი</h5>
+          <a
+            href="https://www.google.com/maps/place/Shilda/@41.9977963,45.671871,13z/data=!3m1!4b1!4m6!3m5!1s0x4045dab3ac46a9f9:0x7d8b95312f666c4c!8m2!3d41.99787!4d45.7178284!16s%2Fg%2F112yg8q5h?entry=ttu"
+          >
+            სოფ.შილდა, ყვარელი</a
+          >
+        </div>
+        <div class="phone">
+          <h5>ნომერი</h5>
+          <a href="tel:123-456-7890">(+995) 593 88 83 88</a>
+        </div>
+        <div class="mail">
+          <h5>მიიღე ჩვენი სიახლეები ელ-ფოსტაზე</h5>
+          <div class="email-box">
+            <form class="form" action="">
+              <label for="email"></label>
+              <input
+                class="email"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="ელ-ფოსტა*"
+              />
+              <button class="submit" type="submit">გამოიწერე</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/scrollToTop.js"></script>
     <script type="module" src="js/products.js"></script>
   </body>
 </html>
