@@ -1,9 +1,5 @@
 import { burger } from "./burger.js";
-import { scrollToTop } from "./scrollToTop.js";
 
-document.addEventListener("DOMContentLoaded", function () {
-  scrollToTop();
-});
 
 document.addEventListener("DOMContentLoaded", function () {
   burger();
@@ -150,11 +146,11 @@ if (savedUsername) {
 axios
   .get("https://salomebubulashvili.github.io/server/server.json")
   .then(function (response) {
-    // handle success
+    
     console.log(response.data);
   })
   .catch(function (error) {
-    // handle error
+    
     console.log(error);
   });
 
@@ -246,6 +242,8 @@ document
 
 fetchDataAndDisplay();
 
+
+// filter
 let ulResult = document.getElementById("result");
 let inputField = document.getElementById("filter");
 
